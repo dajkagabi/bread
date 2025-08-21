@@ -116,9 +116,7 @@ const Products = () => {
         <h2 className="text-4xl font-extrabold text-gray-900">
           Válasszon kategóriát
         </h2>
-        <p className="mt-4 text-lg text-gray-600">
-          Kattintson az egyik kártyára a keresés elindításához.
-        </p>
+        
       </div>
 
       {selectedCategory === null ? (
