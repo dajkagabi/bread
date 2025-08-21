@@ -1,12 +1,50 @@
-# React + Vite
+# Aranybúza pékség
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Technológia:
+- React, Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Könyvtár:
+- Tailwind
+- Iconify
+- Framer motion
 
-## Expanding the ESLint configuration
+# Telepítés:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Előfeltételek
+- Node.js v18.0.0 vagy újabb
+
+# Telepítési lépések
+
+A projekt klónozása:
+```
+git clone https://github.com/dajkagabi/bread.git
+```
+
+A projekt könyvtárba lépés:
+```
+cd bread
+```
+
+A függőségek telepítése:
+```
+npm install
+```
+
+A fejlesztői szerver indítása:
+```
+npm run dev
+```
+
+<img width="1920" height="1080" alt="Home" src="https://github.com/user-attachments/assets/5617af40-2f6c-40d2-ac2d-20e718df27ac" />
+
+<img width="1920" height="1080" alt="About" src="https://github.com/user-attachments/assets/49f189e6-f790-45b6-af8d-6c5a54f5e23d" />
+
+<img width="1920" height="1080" alt="Category" src="https://github.com/user-attachments/assets/978a205e-42a0-474f-8e9d-a66afdbc2db4" />
+
+<img width="1920" height="1080" alt="Contact" src="https://github.com/user-attachments/assets/beec69d9-5e7d-4880-a8c3-fc62cfdffd28" />
+
+<img width="1899" height="395" alt="Footer" src="https://github.com/user-attachments/assets/b543813c-fc0b-4426-9919-19c5b585d678" />
+
+
+
