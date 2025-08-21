@@ -1,25 +1,27 @@
-import React from 'react';
-import image from '../../assets/cd.jpg'; 
+import React from "react";
+import image from "../../assets/cd.jpg";
 
 const ContactForm = () => {
   return (
     <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-col lg:flex-row bg-white rounded-lg shadow-xl overflow-hidden">
-          
-          {/* Bal oldali rész: Űrlap */}
           <div className="lg:w-1/2 p-10 flex flex-col justify-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">
-              Kapcsolat
-            </h2>
-            <p className="text-gray-600 mb-8">
-              Kérdése van vagy segítségre van szüksége? Örömmel segítünk! Keressen minket bizalommal támogatás, érdeklődés vagy együttműködési lehetőségek ügyében.
-            </p>
-            
+            <h2 className="text-3xl font-bold text-gray-900 mb-2">Kapcsolat</h2>
+            <p className="text-gray-600 mb-4">
+              Kérdése van vagy segítségre van szüksége? 
+              </p>
+              <p className="mb-4">Örömmel segítünk!</p>
+        
             <form className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700">Név</label>
+                  <label
+                    htmlFor="name"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    Név
+                  </label>
                   <input
                     type="text"
                     name="name"
@@ -29,7 +31,12 @@ const ContactForm = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700">E-mail</label>
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    E-mail
+                  </label>
                   <input
                     type="email"
                     name="email"
@@ -42,7 +49,12 @@ const ContactForm = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700">Telefonszám</label>
+                  <label
+                    htmlFor="phone"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    Telefonszám
+                  </label>
                   <input
                     type="tel"
                     name="phone"
@@ -52,7 +64,12 @@ const ContactForm = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700">Tárgy</label>
+                  <label
+                    htmlFor="subject"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    Tárgy
+                  </label>
                   <input
                     type="text"
                     name="subject"
@@ -64,7 +81,12 @@ const ContactForm = () => {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700">Üzenet</label>
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-700"
+                >
+                  Üzenet
+                </label>
                 <textarea
                   name="message"
                   id="message"
@@ -85,12 +107,11 @@ const ContactForm = () => {
             </form>
           </div>
 
-          {/* Jobb oldali rész: Kép */}
           <div className="hidden lg:block lg:w-1/2">
-            <img 
-              src={image} 
-              alt="Csapatmunka" 
-              className="h-full w-full object-cover" 
+            <img
+              src={image}
+              alt="Csapatmunka"
+              className="h-full w-full object-cover"
             />
           </div>
         </div>
